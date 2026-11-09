@@ -187,6 +187,13 @@ h2 span {
 
 
 
+
+.QRcode {
+  transform: translate(10px, -5px);
+  transition: transform 0.3s ease;
+}
+
+
 /* HOBBIES */
 .interests {
   background-color: #203b32;
@@ -335,4 +342,36 @@ footer a {
     gap: 10px;
     text-align: center;
   }
+}
+
+
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;           
+  width: 100%;
+  max-width: 1200px;             
+  flex-wrap: wrap; 
+  gap: 30px;       
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+
+.QRcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+.QRcode img {
+  max-width: 220px; 
+  width: 100%;
+  height: auto;
+  display: block;
 }
